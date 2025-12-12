@@ -1,6 +1,6 @@
 public class TestModule {
     @Override
     public String toString() {
-        return "TestModule, version 8!";
+        return "TestModule, version 9!";
     }
 }

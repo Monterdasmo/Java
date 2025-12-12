@@ -1,0 +1,4 @@
+C:\Users\Masha\IdeaProjects\Java\Lab8\Hard_Task\Lab8_2\input\docs\doc1.txt -> 7
+C:\Users\Masha\IdeaProjects\Java\Lab8\Hard_Task\Lab8_2\input\docs\doc2.txt -> 4
+C:\Users\Masha\IdeaProjects\Java\Lab8\Hard_Task\Lab8_2\input\notes\n1.txt -> 8
+C:\Users\Masha\IdeaProjects\Java\Lab8\Hard_Task\Lab8_2\input\root.txt -> 12
