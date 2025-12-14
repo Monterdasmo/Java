@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4af98309-8cb9-457d-801b-4e7e251a4af2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Hard_Task/Lab7_1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hard_Task/Lab7_1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hard_Task/Lab7_1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hard_Task/Lab7_1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hard_Task/Lab7_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hard_Task/Lab7_1/Lab7_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hard_Task/Lab7_1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/Hard_Task/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/Hard_Task/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/Hard_Task/hot-classes/TestModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/Hard_Task/hot-classes/TestModule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/Hard_Task/src/TestModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/Hard_Task/src/TestModule.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="36bSqrsdPo279wrgVuG5oAt8TMC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4af98309-8cb9-457d-801b-4e7e251a4af2" name="Changes" comment="" />
+      <created>1765273973694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765273973694</updated>
+    </task>
+    <servers />
+  </component>
+</project>
