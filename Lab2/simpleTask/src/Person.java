@@ -1,21 +1,21 @@
+
 import java.util.Objects;
 
 /**
- * Сутність Person з коректно перевизначеними equals та hashCode.
+ * POJO для демонстрації equals/hashCode та JSON (Gson).
  */
 public class Person {
-
     private String lastName;
     private String firstName;
     private int age;
+
+    // Потрібен для Gson (та загалом корисний для POJO)
+    public Person() {}
 
     public Person(String lastName, String firstName, int age) {
         this.lastName = lastName;
         this.firstName = firstName;
         this.age = age;
-    }
-
-    public Person() {
     }
 
     public String getLastName() {
@@ -44,31 +44,21 @@ public class Person {
 
     @Override
     public boolean equals(Object o) {
-        // 1. Перевірка на посилання на той самий об'єкт
         if (this == o) return true;
-
-        // 2. Перевірка на null та клас
-        if (o == null || getClass() != o.getClass()) return false;
-
-        // 3. Порівняння полів
+        if (!(o instanceof Person)) return false;
         Person person = (Person) o;
-        return age == person.age &&
-                Objects.equals(lastName, person.lastName) &&
-                Objects.equals(firstName, person.firstName);
+        return age == person.age
+                && Objects.equals(lastName, person.lastName)
+                && Objects.equals(firstName, person.firstName);
     }
 
     @Override
     public int hashCode() {
-        // hashCode обов'язково узгоджений з equals
         return Objects.hash(lastName, firstName, age);
     }
 
     @Override
     public String toString() {
-        return "Person{" +
-                "lastName='" + lastName + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", age=" + age +
-                '}';
+        return "Person{lastName='" + lastName + "', firstName='" + firstName + "', age=" + age + "}";
     }
 }
