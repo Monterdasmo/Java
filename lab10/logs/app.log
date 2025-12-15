@@ -1,0 +1,49 @@
+2025-12-02 10:57:26.460 INFO  Main - Application started
+2025-12-02 11:07:37.996 INFO  Main - Application started
+2025-12-02 11:08:38.819 INFO  Main - Language switched to en
+2025-12-02 11:08:40.586 INFO  Main - Reflection task started
+2025-12-02 11:09:03.364 ERROR Main - Reflection failed
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not "opens java.lang" to unnamed module @4fcd19b3
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391) ~[?:?]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367) ~[?:?]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315) ~[?:?]
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183) ~[?:?]
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177) ~[?:?]
+	at ua.task10.reflection.StringMutator.mutateTo(StringMutator.java:23) ~[classes/:?]
+	at ua.task10.Main.reflectionTask(Main.java:97) [classes/:?]
+	at ua.task10.Main.main(Main.java:34) [classes/:?]
+2025-12-02 12:32:20.392 INFO  Main - Application started
+2025-12-02 12:32:24.345 INFO  Main - Reflection task started
+2025-12-02 12:32:35.983 WARN  Main - Reflection mutation executed (this is WARN -> console + file)
+2025-12-02 12:33:59.520 INFO  Main - Reflection task started
+2025-12-02 12:34:05.350 WARN  Main - Reflection mutation executed (this is WARN -> console + file)
+2025-12-02 12:36:09.305 INFO  Main - Language switched to en
+2025-12-02 12:36:14.516 INFO  Main - Language switched to cs
+2025-12-02 12:36:23.604 INFO  Main - Language switched to en
+2025-12-02 12:36:34.379 INFO  Main - INFO: should go to file only (console denies INFO)
+2025-12-02 12:36:34.379 WARN  Main - WARN: should go to both console and file
+2025-12-02 12:36:34.379 ERROR Main - ERROR: demo exception (divide by zero)
+java.lang.ArithmeticException: / by zero
+	at ua.task10.Main.loggingTask(Main.java:132) [classes/:?]
+	at ua.task10.Main.main(Main.java:35) [classes/:?]
+2025-12-02 12:37:14.009 INFO  Main - Language switched to cs
+2025-12-02 12:37:49.237 INFO  Main - Application started
+2025-12-02 12:37:51.798 INFO  Main - Language switched to cs
+2025-12-02 12:44:07.619 INFO  Main - Application started
+2025-12-02 12:44:09.591 INFO  Main - Reflection task started
+2025-12-02 12:44:18.067 WARN  Main - Reflection mutation executed (this is WARN -> console + file)
+2025-12-02 12:45:13.299 INFO  Main - Reflection task started
+2025-12-02 12:45:28.456 WARN  Main - Reflection mutation executed (this is WARN -> console + file)
+2025-12-02 12:45:38.936 INFO  Main - Reflection task started
+2025-12-02 12:45:45.951 WARN  Main - Reflection mutation executed (this is WARN -> console + file)
+2025-12-02 12:45:48.870 INFO  Main - Reflection task started
+2025-12-02 12:46:25.342 WARN  Main - Reflection mutation executed (this is WARN -> console + file)
+2025-12-02 12:46:26.743 INFO  Main - INFO: should go to file only (console denies INFO)
+2025-12-02 12:46:26.743 WARN  Main - WARN: should go to both console and file
+2025-12-02 12:46:26.743 ERROR Main - ERROR: demo exception (divide by zero)
+java.lang.ArithmeticException: / by zero
+	at ua.task10.Main.loggingTask(Main.java:132) [classes/:?]
+	at ua.task10.Main.main(Main.java:35) [classes/:?]
+2025-12-02 12:47:15.222 INFO  Main - Language switched to en
+2025-12-02 12:47:20.298 INFO  Main - Language switched to cs
+2025-12-02 12:47:22.646 INFO  Main - Language switched to uk
